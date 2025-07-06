@@ -1,0 +1,14 @@
+streamlit
+pandas
+numpy
+scikit-learn
+xgboost
+faiss-cpu
+sentence-transformers
+
+
+# Satellite 1 Name------Taijing 2-01, also known as OBJECT J.  
+
+# Satellite 2  ID 48255 is named Jin Zijing 2
+
+# Satellite 3  name ZARYA
