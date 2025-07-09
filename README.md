@@ -22,7 +22,7 @@ Purpose: Generates vector embeddings for the satellite data and stores them in a
 
 Purpose: Accepts user queries, retrieves relevant data using FAISS, and passes it to GPT-3.5 for text generation.
 
--Run rag_ui.py
+-Run streamlit run rag_ui.py
 
 Purpose: Launches the Streamlit web interface to interact with the model. Users can input queries and receive results in a web-based UI.
 
