@@ -6,19 +6,19 @@ This repository uses LangChain and OpenAI GPT-3.5 to predict satellite collision
 
 Step-by-Step Execution Order:
 
--Run data_generator.py:
+-Run python data_generator.py:
 
 Purpose: Generates synthetic satellite collision data with added noise and labels each pair as risky or safe.
 
--Run train_model.py:
+-Run python train_model.py:
 
 Purpose: Trains a model based on the dataset generated in the previous step.
 
--Run rag_index_builder.py:
+-Run python rag_index_builder.py:
 
 Purpose: Generates vector embeddings for the satellite data and stores them in a FAISS index for fast retrieval.
 
--Run rag_query.py:
+-Run python rag_query.py:
 
 Purpose: Accepts user queries, retrieves relevant data using FAISS, and passes it to GPT-3.5 for text generation.
 
